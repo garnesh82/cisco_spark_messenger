@@ -6,9 +6,9 @@
 // Note : added authorization code
 //
 // USAGE
-// CLI -> cspark_messenger.php <bearer_code> "message"
-// csparky Y2lzY29zcGFyazovL3VzL1JPT00vMmIxOGMzMzAtZmJmMi0xMWU3LTg3ZDYtZmY4YjUyMjY3YWNl authcode "test"
-// URL -> curl -G --insecure "https://localhost/ciscospark.php" --data-urlencode "argument1=<spaceid>" --data-urlencode "argument2=<authcode>" --data-urlencode "messages"
+// CLI -> messenger.php <bearer_code> "message"
+// messenger.php 644teuehdshSJSJDaq9828738343hHFHss authcode "test"
+// URL -> curl -G --insecure "https://localhost/messenger.php" --data-urlencode "argument1=<spaceid>" --data-urlencode "argument2=<authcode>" --data-urlencode "messages"
 
 // TO DISABLE SPARK MESSAGE
 // 0 = disable
