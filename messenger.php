@@ -20,7 +20,7 @@ $PROXY_URL = "http://<username>:<password>@<proxy ip>:<proxy port>";		// PROXY
 $SPARK_BEARER = "<your cisco spark bot authorization code aka bearer_code>";		// Head to read me file on how to obtain one
 $SPARK_POSTMAN = "<your cisco spark bot authorization code aka bearer_code>";		// Not really needed
 $LOGFILE="/tmp/ciscospark.log";		// your log location
-$AUTHCFG = '/var/www/html/sparky/auth.cfg';
+$AUTHCFG = '/var/www/html/ciscospark/auth.cfg';
 
 
 $date = date_create();
