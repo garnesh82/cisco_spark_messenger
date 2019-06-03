@@ -6,7 +6,7 @@
 // Note : added authorization code
 //
 // USAGE
-// CLI -> messenger.php <bearer_code> "message"
+// CLI -> messenger.php <space id / room id> "message"
 // messenger.php 644teuehdshSJSJDaq9828738343hHFHss authcode "test"
 // URL -> curl -G --insecure "https://localhost/messenger.php" --data-urlencode "argument1=<spaceid>" --data-urlencode "argument2=<authcode>" --data-urlencode "messages"
 
